@@ -1,24 +1,9 @@
 'use strict';
 
-function calcAge(birthYear) {
-  const age = 2037 - birthYear;
-  function printAge() {
-      const output = `You are ${age}, born in ${birthYear}`;
-      console.log(output);
-      const firstName = 'Steven';
+console.log(me);
+console.log(job);
+console.log(year);
 
-    if (birthYear >= 1981 && birthYear <= 1996) {
-      var millenial = true;
-      const str = `oh, and you 're a millenial ${firstName}`;
-      console.log(str);
-    }
-    console.log(millenial);
-  }
-  printAge();
-  return age;
-}
-
-const firstName = 'Jonas';
-calcAge(1991);
-//console.log(age);
-//printAge();
+var me = 'Nicolas';
+let job = 'development';
+const year = 1979;
