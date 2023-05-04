@@ -2,10 +2,10 @@
 
 function calcAge(birthYear) {
   const age = 2037 - birthYear;
-  const firstName = 'Steven';
   function printAge() {
-    const output = `You are ${age}, born in ${birthYear}`;
-    console.log(output);
+      const output = `You are ${age}, born in ${birthYear}`;
+      console.log(output);
+      const firstName = 'Steven';
 
     if (birthYear >= 1981 && birthYear <= 1996) {
       var millenial = true;
